@@ -104,7 +104,7 @@ com.pratikbharad.shoplite
 | Images | Coil 3 (`coil-compose`, `coil-network-okhttp`) |
 | Tests | JUnit 4, kotlinx-coroutines-test, `paging-testing`, AndroidX Test (instrumented Room tests) |
 
-Toolchain: Kotlin 2.4.20, AGP 9.4.1 with built-in Kotlin, KSP 2.3.12, Gradle 9.6.1.
+Toolchain: Kotlin 2.4.20, AGP 9.4.1 with built-in Kotlin, KSP 2.3.12, Gradle 9.8.0.
 
 ## Local storage approach
 
