@@ -37,7 +37,7 @@ object NetworkModule {
         .writeTimeout(TIMEOUT_SECONDS, TimeUnit.SECONDS)
         .apply {
             if (BuildConfig.DEBUG) {
-                addInterceptor(HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BASIC))
+                addInterceptor(HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY))
             }
         }
         .build()
