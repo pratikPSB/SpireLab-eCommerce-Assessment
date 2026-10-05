@@ -44,6 +44,11 @@ is set as the `API_BASE_URL` BuildConfig field in `app/build.gradle.kts`.
 The `release` build type has R8 minification and resource shrinking turned on. It is signed with the debug keystore so the
 release APK can be installed directly for testing.
 
+Retrofit, OkHttp, kotlinx.serialization, Room, Hilt and Coil ship their own R8 rules, which cover everything the app loads
+by reflection. That includes the Navigation 3 back stack, which is restored after process death through kotlinx.serialization.
+`app/proguard-rules.pro` therefore only keeps source file names and line numbers, so release crash stack traces can be
+decoded with `app/build/outputs/mapping/release/mapping.txt`.
+
 ## Architecture
 
 The app is a single Activity built with Jetpack Compose. It uses **MVVM** with **unidirectional data flow** and a
