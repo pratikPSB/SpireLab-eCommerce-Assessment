@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">ShopLite</string>
+
+    <string name="action_back">Back</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_clear_search">Clear search</string>
+    <string name="action_add_to_cart">Add to cart</string>
+    <string name="action_go_to_cart">Go to cart</string>
+    <string name="action_browse_products">Browse products</string>
+    <string name="action_increase_quantity">Increase quantity</string>
+    <string name="action_decrease_quantity">Decrease quantity</string>
+    <string name="action_remove_item">Remove %1$s from cart</string>
+
+    <string name="search_hint">Search products</string>
+    <string name="products_empty_title">No products yet</string>
+    <string name="products_empty_message">There are no products to show right now. Please check back later.</string>
+    <string name="search_empty_title">No results</string>
+    <string name="search_empty_message">We couldn\'t find anything for \"%1$s\". Try a different search term.</string>
+    <string name="load_more_error">Couldn\'t load more products: %1$s</string>
+
+    <string name="product_details_title">Product details</string>
+    <string name="product_out_of_stock">Out of stock</string>
+    <string name="details_category">Category</string>
+    <string name="details_brand">Brand</string>
+    <string name="details_stock">Stock</string>
+    <string name="details_description">Description</string>
+    <string name="brand_unknown">Not specified</string>
+    <plurals name="stock_available">
+        <item quantity="one">%d available</item>
+        <item quantity="other">%d available</item>
+    </plurals>
+
+    <string name="rating_value">%1$.1f</string>
+    <string name="rating_content_description">Rated %1$.1f out of 5</string>
+
+    <string name="cart_title">Cart</string>
+    <plurals name="cart_content_description">
+        <item quantity="one">Cart, %d item</item>
+        <item quantity="other">Cart, %d items</item>
+    </plurals>
+    <string name="cart_empty_title">Your cart is empty</string>
+    <string name="cart_empty_message">Products you add will show up here, even when you\'re offline.</string>
+    <string name="cart_unit_price">%1$s each</string>
+    <string name="cart_total_items">Items</string>
+    <string name="cart_total_price">Total</string>
+    <string name="cart_item_removed">Removed %1$s</string>
+
+    <string name="offline_banner">You\'re offline. Your cart still works.</string>
+
+    <string name="error_no_connection_title">No internet connection</string>
+    <string name="error_no_connection">Check your connection and try again.</string>
+    <string name="error_timeout_title">Request timed out</string>
+    <string name="error_timeout">The server took too long to respond. Please try again.</string>
+    <string name="error_not_found_title">Not found</string>
+    <string name="error_not_found">We couldn\'t find what you were looking for.</string>
+    <string name="error_server_title">Server error</string>
+    <string name="error_server">Something went wrong on our side. Please try again later.</string>
+    <string name="error_unknown_title">Something went wrong</string>
+    <string name="error_unknown">An unexpected error occurred. Please try again.</string>
+</resources>
